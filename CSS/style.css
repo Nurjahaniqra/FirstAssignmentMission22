@@ -31,11 +31,10 @@ body {
 .imagemid {
   display: flex;
   border-radius: 6px;
-  width: 30%;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 45%;
 }
 .imagemid img {
+  padding: 20px;
   border-radius: 6px;
 }
 span {
