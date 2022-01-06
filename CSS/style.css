@@ -59,3 +59,8 @@ span {
   border-radius: 8px;
   margin-right: 5%;
 }
+.footsec {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
