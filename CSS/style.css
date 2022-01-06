@@ -4,6 +4,7 @@ body {
 }
 .container {
   display: flex;
+  margin-top: 20px;
 }
 .Mis22 {
   color: purple;
@@ -13,13 +14,14 @@ body {
   padding-left: 20px;
 }
 .half-Width img {
-  width: 70%;
+  width: 60%;
   height: 200px;
 }
-#colorh {
+.colorh {
   border-image: linear-gradient(red, CYAN);
   border-image-slice: 1;
-  margin-left: 7px solid;
+  border-left: 5px solid;
+  margin: 10px;
 }
 .ancorecolour {
   text-decoration: none;
@@ -35,9 +37,25 @@ body {
 }
 .imagemid img {
   padding: 20px;
-  border-radius: 6px;
+  width: 40%;
 }
 span {
   color: purple;
   text-align: center;
+}
+
+#img1 {
+  background-color: darkseagreen;
+  margin-right: 5%;
+  border-radius: 8px;
+}
+#img2 {
+  background-color: plum;
+  border-radius: 8px;
+  margin-right: 5%;
+}
+#img3 {
+  background-color: palevioletred;
+  border-radius: 8px;
+  margin-right: 5%;
 }
